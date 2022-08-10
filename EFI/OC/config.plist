@@ -54,6 +54,22 @@
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-UIAC.aml</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-UIAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-EC-USBX.aml</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -248,7 +264,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>RUhDMg==</data>
 				<key>Limit</key>
@@ -284,7 +300,7 @@
 				<key>TableSignature</key>
 				<data>RFNEVA==</data>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -1222,7 +1238,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1325,7 +1341,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=11</string>
+				<string>alcid=11 -uia_exclude_hs</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
