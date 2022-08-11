@@ -1413,7 +1413,7 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02752200GUG91QUE</string>
+			<string>***</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -1427,9 +1427,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir7,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VWYYPG940</string>
+			<string>***</string>
 			<key>SystemUUID</key>
-			<string>B247FD71-7805-4BB2-BA2D-2749F864E8E4</string>
+			<string>***</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
